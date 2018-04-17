@@ -17,49 +17,54 @@
 <ellipse fill="none" stroke="black" cx="324" cy="-250" rx="48.1917" ry="18"/>
 <text text-anchor="middle" x="324" y="-246.3" font-family="Times,serif" font-size="14.00">call config</text>
 </g>
-<!-- call fastqsplitterR1 -->
-<g id="node2" class="node"><title>call fastqsplitterR1</title>
+<!-- call fastqsplitterR2 -->
+<g id="node2" class="node"><title>call fastqsplitterR2</title>
 <ellipse fill="none" stroke="black" cx="238" cy="-178" rx="77.1866" ry="18"/>
-<text text-anchor="middle" x="238" y="-174.3" font-family="Times,serif" font-size="14.00">call fastqsplitterR1</text>
+<text text-anchor="middle" x="238" y="-174.3" font-family="Times,serif" font-size="14.00">call fastqsplitterR2</text>
 </g>
-<!-- call config&#45;&gt;call fastqsplitterR1 -->
-<g id="edge1" class="edge"><title>call config&#45;&gt;call fastqsplitterR1</title>
+<!-- call config&#45;&gt;call fastqsplitterR2 -->
+<g id="edge1" class="edge"><title>call config&#45;&gt;call fastqsplitterR2</title>
 <path fill="none" stroke="black" d="M304.914,-233.465C293.548,-224.213 278.913,-212.301 266.23,-201.978"/>
 <polygon fill="black" stroke="black" points="268.196,-199.065 258.231,-195.467 263.777,-204.494 268.196,-199.065"/>
 </g>
-<!-- call fastqsplitterR2 -->
-<g id="node3" class="node"><title>call fastqsplitterR2</title>
+<!-- call fastqsplitterR1 -->
+<g id="node4" class="node"><title>call fastqsplitterR1</title>
 <ellipse fill="none" stroke="black" cx="411" cy="-178" rx="77.1866" ry="18"/>
-<text text-anchor="middle" x="411" y="-174.3" font-family="Times,serif" font-size="14.00">call fastqsplitterR2</text>
+<text text-anchor="middle" x="411" y="-174.3" font-family="Times,serif" font-size="14.00">call fastqsplitterR1</text>
 </g>
-<!-- call config&#45;&gt;call fastqsplitterR2 -->
-<g id="edge2" class="edge"><title>call config&#45;&gt;call fastqsplitterR2</title>
+<!-- call config&#45;&gt;call fastqsplitterR1 -->
+<g id="edge3" class="edge"><title>call config&#45;&gt;call fastqsplitterR1</title>
 <path fill="none" stroke="black" d="M343.308,-233.465C354.806,-224.213 369.611,-212.301 382.442,-201.978"/>
 <polygon fill="black" stroke="black" points="384.937,-204.463 390.534,-195.467 380.548,-199.009 384.937,-204.463"/>
 </g>
-<!-- scatter (zip(fastqsplitterR1.outputFastqFiles, fastqsplitterR1.outputFastqFiles)) -->
-<g id="node6" class="node"><title>scatter (zip(fastqsplitterR1.outputFastqFiles, fastqsplitterR1.outputFastqFiles))</title>
-<text text-anchor="middle" x="238" y="-102.3" font-family="Times,serif" font-size="14.00">scatter (zip(fastqsplitterR1.outputFastqFiles, fastqsplitterR1.outputFastqFiles))</text>
+<!-- scatter (zip(fastqsplitterR1.outputFastqFiles, fastqsplitterR2.outputFastqFiles)) -->
+<g id="node3" class="node"><title>scatter (zip(fastqsplitterR1.outputFastqFiles, fastqsplitterR2.outputFastqFiles))</title>
+<text text-anchor="middle" x="324" y="-102.3" font-family="Times,serif" font-size="14.00">scatter (zip(fastqsplitterR1.outputFastqFiles, fastqsplitterR2.outputFastqFiles))</text>
 </g>
-<!-- call fastqsplitterR1&#45;&gt;scatter (zip(fastqsplitterR1.outputFastqFiles, fastqsplitterR1.outputFastqFiles)) -->
-<g id="edge4" class="edge"><title>call fastqsplitterR1&#45;&gt;scatter (zip(fastqsplitterR1.outputFastqFiles, fastqsplitterR1.outputFastqFiles))</title>
-<path fill="none" stroke="black" d="M238,-159.697C238,-151.983 238,-142.712 238,-134.112"/>
-<polygon fill="black" stroke="black" points="241.5,-142 238,-132 234.5,-142 241.5,-142"/>
+<!-- call fastqsplitterR2&#45;&gt;scatter (zip(fastqsplitterR1.outputFastqFiles, fastqsplitterR2.outputFastqFiles)) -->
+<g id="edge2" class="edge"><title>call fastqsplitterR2&#45;&gt;scatter (zip(fastqsplitterR1.outputFastqFiles, fastqsplitterR2.outputFastqFiles))</title>
+<path fill="none" stroke="black" d="M258.381,-160.411C266.628,-153.698 276.426,-145.723 285.903,-138.009"/>
+<polygon fill="black" stroke="black" points="288.2,-140.652 293.747,-131.625 283.782,-135.223 288.2,-140.652"/>
+</g>
+<!-- call fastqsplitterR1&#45;&gt;scatter (zip(fastqsplitterR1.outputFastqFiles, fastqsplitterR2.outputFastqFiles)) -->
+<g id="edge5" class="edge"><title>call fastqsplitterR1&#45;&gt;scatter (zip(fastqsplitterR1.outputFastqFiles, fastqsplitterR2.outputFastqFiles))</title>
+<path fill="none" stroke="black" d="M390.382,-160.411C382.039,-153.698 372.127,-145.723 362.54,-138.009"/>
+<polygon fill="black" stroke="black" points="364.59,-135.167 354.605,-131.625 360.202,-140.621 364.59,-135.167"/>
 </g>
 <!-- call qc -->
-<g id="node4" class="node"><title>call qc</title>
-<ellipse fill="none" stroke="black" cx="512" cy="-106" rx="34.394" ry="18"/>
-<text text-anchor="middle" x="512" y="-102.3" font-family="Times,serif" font-size="14.00">call qc</text>
+<g id="node5" class="node"><title>call qc</title>
+<ellipse fill="none" stroke="black" cx="50" cy="-106" rx="34.394" ry="18"/>
+<text text-anchor="middle" x="50" y="-102.3" font-family="Times,serif" font-size="14.00">call qc</text>
 </g>
 <!-- call mapping -->
-<g id="node5" class="node"><title>call mapping</title>
-<ellipse fill="none" stroke="black" cx="489" cy="-34" rx="57.3905" ry="18"/>
-<text text-anchor="middle" x="489" y="-30.3" font-family="Times,serif" font-size="14.00">call mapping</text>
+<g id="node6" class="node"><title>call mapping</title>
+<ellipse fill="none" stroke="black" cx="73" cy="-34" rx="57.3905" ry="18"/>
+<text text-anchor="middle" x="73" y="-30.3" font-family="Times,serif" font-size="14.00">call mapping</text>
 </g>
 <!-- call qc&#45;&gt;call mapping -->
-<g id="edge3" class="edge"><title>call qc&#45;&gt;call mapping</title>
-<path fill="none" stroke="black" d="M506.432,-88.055C503.844,-80.1762 500.703,-70.6165 497.804,-61.794"/>
-<polygon fill="black" stroke="black" points="501.123,-60.6831 494.676,-52.2753 494.473,-62.8682 501.123,-60.6831"/>
+<g id="edge4" class="edge"><title>call qc&#45;&gt;call mapping</title>
+<path fill="none" stroke="black" d="M55.5677,-88.055C58.1564,-80.1762 61.2974,-70.6165 64.1962,-61.794"/>
+<polygon fill="black" stroke="black" points="67.5273,-62.8682 67.3238,-52.2753 60.8771,-60.6831 67.5273,-62.8682"/>
 </g>
 </g>
 </svg>
